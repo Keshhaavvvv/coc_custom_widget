@@ -1,0 +1,114 @@
+{
+  "tag": "#DEMO123",
+  "timestamp": 1793678740,
+  "helpers": [
+    {
+      "data": 93000000,
+      "lvl": 8,
+      "helper_cooldown": 81694
+    },
+    {
+      "data": 93000001,
+      "lvl": 8
+    }
+  ],
+  "buildings": [
+    {
+      "data": 1000001,
+      "lvl": 16
+    },
+    {
+      "data": 1000015,
+      "lvl": 5,
+      "cnt": 5
+    },
+    {
+      "data": 1000068,
+      "lvl": 8,
+      "timer": 39217
+    },
+    {
+      "data": 1000077,
+      "lvl": 2,
+      "timer": 241975,
+      "extra": true
+    }
+  ],
+  "heroes": [
+    {
+      "data": 28000000,
+      "lvl": 70,
+      "timer": 26696
+    },
+    {
+      "data": 28000001,
+      "lvl": 89,
+      "timer": 194891,
+      "helper_timer": 2494,
+      "helper_recurrent": true
+    },
+    {
+      "data": 28000002,
+      "lvl": 64,
+      "timer": 39147
+    },
+    {
+      "data": 28000004,
+      "lvl": 40,
+      "timer": 189081
+    },
+    {
+      "data": 28000006,
+      "lvl": 64,
+      "timer": 135406
+    }
+  ],
+  "units": [
+    {
+      "data": 4000023,
+      "lvl": 9,
+      "timer": 139589,
+      "extra": true
+    },
+    {
+      "data": 4000150,
+      "lvl": 2,
+      "timer": 321064
+    }
+  ],
+  "pets": [
+    {
+      "data": 73000008,
+      "lvl": 7,
+      "timer": 57934
+    }
+  ],
+  "buildings2": [
+    {
+      "data": 1000065,
+      "lvl": 5
+    },
+    {
+      "data": 1000078,
+      "lvl": 7,
+      "timer": 625729
+    }
+  ],
+  "heroes2": [
+    {
+      "data": 28000003,
+      "lvl": 25,
+      "timer": 293720
+    },
+    {
+      "data": 28000005,
+      "lvl": 21,
+      "timer": 218124
+    }
+  ],
+  "boosts": {
+    "builder_boost": 3432,
+    "lab_boost": 3600,
+    "pet_boost": 3600
+  }
+}

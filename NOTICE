@@ -1,0 +1,19 @@
+Clash Ledger's application source is licensed under MIT.
+
+gradle/wrapper/gradle-wrapper.jar is part of Gradle, licensed under the
+Apache License, Version 2.0. Copyright Gradle, Inc. and contributors.
+https://gradle.org/
+https://www.apache.org/licenses/LICENSE-2.0
+See gradle/wrapper/LICENSE for the full license text.
+
+The factual item ID/name lookup in app/src/main/assets/item_names.json was
+extracted from the clashy.py static data catalogue (ClashKingInc contributors):
+https://github.com/ClashKingInc/clashy.py/blob/main/coc/static/static_data.json
+Game names and trademarks belong to Supercell. No library code is bundled.
+
+The bundled Clash of Clans artwork in app/src/main/res/drawable-nodpi/
+is © Supercell Oy and is not covered by this project's MIT source license.
+See docs/ARTWORK.md and docs/artwork-sources.json for sources and terms.
+
+Barlow Condensed by Jeremy Tribby is distributed under the SIL Open Font
+License, included at app/src/main/assets/fonts/OFL.txt.
