@@ -18,10 +18,17 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Build
+      - name: Install Android SDK
         run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          sudo apt-get update
+          sudo apt-get install -y android-sdk
+          echo "sdk.dir=/usr/lib/android-sdk" > local.properties
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
